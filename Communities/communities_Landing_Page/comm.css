@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1,h2,h3,h5,h6{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1180px;
+}
+.community {
+    padding: 100px 0px;
+}
+.comm-wrapper{
+    padding: 100px 0px;
+}
+.comm-wrapper>div>div>div{
+    background-color: aqua;
+    width: 80%;
+}
+.ide-wrapper{
+    padding: 100px 0px;
+}
+.ide-wrapper>div>div>div{
+    width: 90%;
+    background-color: aliceblue;
+}
+@media only screen and (min-width:768px){
+    .ide-wrapper>div>div:nth-child(1){
+        margin-bottom: 50px;
+    }
+    .ide-wrapper>div>div:nth-child(2){
+        margin-bottom: 50px;
+    }
+}
+
+.active-wrapper{
+    padding: 100px 0px;
+    padding-bottom: 40px;
+}
+.col-wrapper>div>div>div{
+    box-shadow: 0px 4px 4px 0px #0000002b;
+    width: 90%;
+    border-radius: 20px;
+    
+}
+@media only screen and (min-width:768){
+    width: 90%;
+}
+/* footer */
+footer{
+    background-color: rgb(38, 38, 70);
+    color: #ffff;
+}
+.foot-wrapper>div>div>div>h6{
+    padding: 10px 0px;
+
+}
+@media only screen and (min-width:992px){
+    .foot-wrapper>div>div:last-child{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+@media only screen and (max-width:992px){
+    .foot-wrapper>div>div{
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .foot-wrapper>div>div:last-child{
+        display: flex;
+        justify-content: center;
+    }
+}
+.fdd{
+    background-color: rgba(8, 8, 36, 0.785);
+}
+
+
