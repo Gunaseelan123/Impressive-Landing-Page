@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.banner{
+    padding-top: 100px;
+}
+.heads{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    color: #ffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.guts{
+    width: 80%;
+    margin: 0px auto;
+}
+.break{
+    display: block;
+}
+header{
+    background-color: blueviolet;
+    
+}
+.heads nav a{
+    color: #ffff;
+    
+}
+a{
+    text-decoration:none;
+}
+.heads nav{
+    display: flex;
+    gap: 50px;
+}
+.yar>div{
+    width: 50%;
+    
+}
+.yar{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.yar div p{
+    margin: 30px 0px;
+    color: grey;
+}
+.yar h1{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.haa{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.haa > a:nth-child(1){
+    background-color: rgba(255, 157, 0, 0.891);
+    border-radius: 10px;
+    padding: 15px 30px;
+    color: #ffff;
+    font-weight: 600;
+    
+}
+.haa a:last-child{
+    color: #14121F;
+    font-weight: 600;
+    font-size: 20px;
+}
+.cls0{
+    padding: 100px 0px;
+}
+.cls3{
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.cls3 > div{
+    border-radius: 20px;
+    padding: 30px;
+    color: #ffff;
+}
+
+.cls3>div>span{
+    display: inline-block;
+    margin: 10px 0px;
+}
+.cls3>div>p{
+    margin-bottom: 15px;
+}
+.cls3>div>div{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+.cls3>div>div a{
+    color: #ffff;
+    border: 1px solid #ffff;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    transition:all.30s;
+}
+.cls3>div>div a:hover{
+    background-color: orange;
+    color: #14121F;
+    
+}
+
+.cls3 > div:first-child{
+    background-color: #0c445C;
+}
+
+.cls3 div:nth-child(2){
+    background-color:#5B2C92 ;
+}
+
+.cls3 div:nth-child(3){
+    background-color: #7F3219;
+}
+.foot{
+    text-align: center;
+    background-color: #D6D6D6;
+    padding: 20px;
+   
+}
+.break>span{
+    display: inline;
+    color: #5B2C92;
+}
+
+
+
+
+@media only screen and (max-width: 992px){
+    .heads{
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+    .heads nav{
+        justify-content: center;
+    }
+    .break{
+        display: inline;
+    }
+    .yar{
+        flex-direction: column;
+    }
+    .yar>div{
+        width: 100%;
+        
+    }
+    .yar{
+        gap: 50px;
+    }
+    .yar>div:nth-child(1){
+        text-align: center;
+    }
+    .haa{
+        justify-content: center;
+    }
+    .cls3{
+        flex-direction: column;
+    }
+    
+    
+}

@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.pos1{
+    background-color: rgb(207, 196, 255);
+    height: 300px;
+    width: 300px;
+    /* if without relative absolute will be on browser */
+    /* position: relative; */
+    top: 100px;
+    left: 100px;
+
+}
+
+.pos2{
+    background-color: rgb(16, 168, 41);
+    height: 100px;
+    width: 100px;
+    position: static;
+    top: 0px;
+    left: 0px;
+}

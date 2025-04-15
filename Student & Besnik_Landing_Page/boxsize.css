@@ -1,0 +1,10 @@
+div{ 
+   background-color: aqua;
+   height: 300px;
+   width: 300px;
+   padding: 50px;
+   border: 10px solid black;
+   /* padding and border are included in the width and height of an element */
+   box-sizing: border-box;
+}
+ 

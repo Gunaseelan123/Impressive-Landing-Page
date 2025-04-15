@@ -1,0 +1,176 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* background color useing main */
+main{
+    background-color: rgb(175, 224, 228);
+}
+
+/* header */
+.tam{
+    
+}
+
+.container{
+    max-width: 80%;
+    margin: 0px auto;
+    
+}
+.banner-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.banner{
+    display: flex;
+    gap: 60px;
+    /* justify-content: space-between; */
+    align-items: center;
+
+}
+
+.banner>nav{
+    display: flex;
+    gap: 25px;
+}
+.banner nav>a{
+   color: grey;
+}
+.banner2{
+    background-color: rgb(0, 115, 255);
+    padding: 11px 30px;
+    border-radius: 10px;
+}
+.banner2 a{
+    color: #ffff;
+}
+/* header */
+
+
+
+/* section1 */
+.sec-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 100px 0px;
+}
+.sec-wrapper>div{
+    width: 50%;
+}
+.sec p{
+    margin: 50px 0px;
+}
+.sec h1{
+    font-size: 45px;
+}
+.sec>a{
+    display: inline-flex;
+    color: #ffff;
+    background-color: rgb(0, 132, 255);
+    border-radius: 10px;
+    padding: 11px 20px;
+}
+.pic{
+    text-align: right;
+
+}
+
+
+.spaan{
+    display: block;
+}
+/* section1 end */
+
+
+/* section2 start */
+.sec2-wrapper{
+    display: flex;
+    align-items: center;
+    padding: 100px 0px;
+}
+.sec2-wrapper>div{
+    width: 50%;
+}
+.sec2 ul{
+    padding: 0px 30px;
+}
+.sec2 p{
+    margin: 25px 0px;
+}
+.col-wrapper{
+    display: flex;
+    gap: 20px;
+    padding: 100px 0px;
+    
+}
+.col-wrapper>div p{
+    margin: 20px 0px;
+    
+}
+.col-wrapper>div{
+    padding: 10px;
+    background-color: rgb(100, 237, 107);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:992px){
+    /* header */
+    .banner{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .banner-wrapper{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .banner2{
+
+        align-self: flex-end;
+    }
+    
+    /* header */
+    .sec-wrapper{
+        flex-direction: column;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    .spaan{
+        display: inline;
+    }
+    .sec-wrapper>div{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+.rest{
+    background-color: bisque;
+}

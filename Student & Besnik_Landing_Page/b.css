@@ -1,0 +1,22 @@
+/* using > work only direct child */
+.parent > div{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+.parent div:nth-child(1){
+    background-color: rgb(12, 12, 238);
+}
+.parent div:nth-child(2){
+    background-color: rgb(0, 255, 81);
+}
+.parent div:last-child{
+    background-color: rgb(255, 115, 0);
+}
+.parchild div:first-child{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+}

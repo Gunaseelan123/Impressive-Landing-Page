@@ -1,0 +1,67 @@
+.parent > div{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    /* flex-grow: 1; */
+    /* flex basis is alternative of width */
+    /* flex-basis: 200px; */
+    /* align-self: center; */
+}
+
+.parent{
+    /* to use flex */
+    display:flex;
+    /* to align horizantal */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+    /* justify-content: space-evenly; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* whole height */
+    height: 800px;
+    
+
+    
+    /* to align content vertically */
+    /* align-items: center; */
+    align-items: flex-start;
+    /* align-items: flex-end; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction:row-reverse ; */
+    /* if apply column to align horizantaly align items are used because direction*/
+    /* flex-direction: column; */
+
+}
+
+.parent div:nth-child(1){
+    background-color: chartreuse;
+    /* flex-grow: 1; */
+    /* order: 3; */
+    align-self: flex-start;
+}
+
+.parent div:nth-child(2){
+    background-color: brown;
+    /* flex-grow: 2; */
+    /* order: 4; */
+    align-self: center;
+}
+
+.parent div:nth-child(3){
+    background-color: blueviolet;
+    /* flex-grow: 3; */
+    /* order: 1; */
+    align-self: flex-end;
+}
+.parent div:last-child{
+    background-color: blue;
+    /* flex-grow: 2; */
+    /* order: 2; */
+    align-self: flex-start;
+}
+

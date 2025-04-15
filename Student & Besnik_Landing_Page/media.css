@@ -1,0 +1,14 @@
+.parent > div{
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (min-width:1200px){
+    .parent > div:nth-child(2){
+        background-color: aqua;
+    }
+}
