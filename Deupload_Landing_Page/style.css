@@ -1,0 +1,255 @@
+:root{
+    --primary-color:#651fff;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    font-family: "Poppins",sans-serif;
+}
+.container{
+    max-width: 1151px;
+}
+
+
+
+/* buttons */
+.btt-primary{
+    background-color: var(--primary-color);
+    color: #ffff;
+    padding: 13px;
+    border-radius: 10px;
+}
+.btt-outline-primary{
+    background-color: #ffff;
+    color: #0B0D0E;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+/* buttons */
+
+
+
+/* banner wrapper */
+.sec{
+    background-color: #EBE5FA;
+}
+.banner>div>a{
+    display: inline-block;
+}
+.banner{
+    padding: 100px 0px;
+}
+.banner>h1>span>span{
+    color:var(--primary-color);
+}
+/* banner-wrapper */
+
+
+
+
+/* img-wrapper */
+.img-wrapper{
+    padding: 100px 0px;
+}
+/* img-wrapper */
+
+
+
+/* big-wrapper */
+.big-wrapper{
+    padding: 80px 0px;
+}
+.big-wrapper>div>div>div{
+    background-color:var(--primary-color);
+    color: #ffff;
+    padding: 50px;
+    border-radius: 15px;
+    
+}
+.big-wrapper>div>div>div a{
+    color: #ffff;
+}
+
+/* big wrapper end */
+
+
+
+/* three */
+.three-wrapper>div>div:first-child>div{
+    background-color:#FFF7ED;
+    border-radius: 25px;
+}
+.three-wrapper>div>div:nth-child(2)>div{
+    background-color:#E0F7FA ;
+    border-radius: 25px;
+
+}
+
+.sec4{
+    padding: 100px 0px;
+}
+.team>h1>span>span{
+    display: inline-block;
+    color: var(--primary-color);
+}
+.team>h1>span:last-child{
+    color: var(--primary-color);
+}
+
+.teach-wrapper{
+    background-color: #ECECFE;
+    border-radius: 15px;
+}
+/* three */
+
+
+
+
+/* mul-wrapper */
+
+.mul1>h1>span:last-child{
+    color: var(--primary-color);
+
+}
+.tow>div{
+    background-color: #ffff;
+    box-shadow:0px 4px 24px 0px #00000015;
+    border-radius: 15px;
+}
+.mul-wrapper{
+    padding: 100px 0px;
+}
+/* mul-wrapper */
+
+
+
+
+/* con-wrapper */
+.hhead>h1>span:nth-child(2){
+    color: var(--primary-color);
+}
+.hhead{
+    margin-bottom: 100px;
+}
+.con-wrapper>div>div:first-child>div{
+    background-color:#ffff;
+    border-radius: 15px;
+    box-shadow:0px 4px 24px 0px #00000015;
+}
+.con-wrapper>div>div:last-child>div{
+    background-color: var(--primary-color);
+    border-radius: 15px;
+    color: #ffff;
+}
+.sec6{
+    padding: 100px 0px;
+    background-image: url("./img/Group\ 367.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.con-wrapper>div>div>div{
+    padding: 50px;
+}
+
+@media only screen and (min-width:992px){
+    
+    .con-wrapper>div>div:last-child>div{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    } 
+}
+@media only screen and (max-width:992px){
+    
+    .con-wrapper>div>div:first-child>div{
+        margin-bottom: 50px;
+    }  
+}
+/* con-wrapper */
+
+
+
+
+
+/* sec7 */
+.sect{
+    margin: 100px 0px;
+}
+.cent-wrapper>div>div>div{
+    padding: 40px;
+    
+}
+.bts{
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+.mar-wrapper>div>div:first-child>div{
+    background-color: var(--primary-color);
+    color: #ffff;
+    border-radius: 20px;
+}
+.mar-wrapper>div>div:first-child>div{
+    padding: 30px;
+}
+.mar-wrapper>div>div:first-child>div>h4{
+    padding: 20px 0px;
+}
+.mar-wrapper>div>div:first-child>div>a{
+    
+}
+.mar-wrapper>div>div:first-child>div>p{
+    padding-bottom: 20px;
+}
+.mar-wrapper>div>div:first-child>div>a{
+    color: #ffff;
+}
+.en-wrapper>div>div:first-child>div{
+    padding: 30px;
+    
+}
+.en-wrapper>div>div:first-child>div>h4{
+    padding: 20px 0px;
+ 
+}
+.en-wrapper>div>div:last-child>div{
+    padding: 30px;  
+}
+.en-wrapper{
+    
+    background-color:#ECECFE;
+    border-radius: 20px;
+}
+/* sec7 */
+
+
+
+
+/* footer */
+.foo{
+    padding: 80px 0px 30px 0px;
+    background-color: #1A284E;
+    color: #ffff;
+    margin-top: 150px;
+}
+.footlow>div>a{
+    color: #ffff;
+}
+.footlow{
+    margin-top: 80px;
+}
+/* footer */
